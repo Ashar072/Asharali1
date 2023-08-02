@@ -1,0 +1,122 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media(max-width:1920px) and (min-width:400px){
+
+    .main{
+        width: 100%;
+        height: auto;
+    }
+    .navber{
+        background-color: #dfe7df;
+        width: 100%;
+        height: 100px;
+        position: sticky;
+        top: 0px;
+    }
+    .nav-item{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .list .item{
+        text-decoration: none;
+        color: black;
+        margin: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+@media(max-width:400px){
+    .main{
+        width: 100%;
+        height: auto;
+    }
+    .searchbar .searchitem{
+        display: none;
+    }
+    .navber{
+        background-color: #dfe7df;
+        width: 100%;
+        height: auto;
+        position: sticky;
+        top: 0px;
+    }
+    .nav-item{
+        list-style-type: none;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        padding: 10px;
+    }
+    .list .item{
+        text-decoration: none;
+        color: black;
+        margin: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+.mainheader{
+    width: 100%;
+    height: 600px;
+    background-color: #dfe7df;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+}
+.txtgrey{
+    color: grey;
+    font-size: 12px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(80,79 ,79);
+    /* padding: 20px; */
+}
+.btn:hover{
+    width: 200px;
+    height: 40px;
+    background: rgb(243,217,103);
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    /* padding: 20px; */
+}
+.categorysection{
+    width: 100%;
+    height: 400px;
+    background: white;
+    border-bottom: 1px solid grey;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    z-index: 0;
+}
+.cat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.catitems{
+    margin: 20px;
+}
+.catitems:hover img{
+    width: 150px;
+    height: 150px;
+    transition:width,4s,linear,2s;
+}
+.catitems:hover p{
+   font-size: 18px;
+   color: rgb(241,245,21);
+   transition:font-size ,4s,linear,2s;
+}
